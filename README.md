@@ -26,7 +26,6 @@ _Result_
 ![image](https://user-images.githubusercontent.com/111234771/195766582-72e9bc45-fde3-4d3c-9451-52ca99d9769b.png)
 ![image](https://user-images.githubusercontent.com/111234771/195769695-a397a9cc-002b-4e8f-ab3e-8cc9c11d4fbe.png)
 ![image](https://user-images.githubusercontent.com/111234771/195769945-89b3bf51-eda3-44d9-933f-cfb041050e71.png)
-```
 
 ```
 eval "$(/home/ubuntu/anaconda3/bin/conda shell.bash hook)"
