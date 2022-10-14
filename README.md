@@ -61,6 +61,16 @@ conda update conda
 conda update anaconda
 ```
 
+___Reboot the Machine (Optional)___
+### Verify By Starting Jupyter Notebook ###
+```
+jupyter notebook
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/195773081-6d309d2c-e311-4f43-9424-460c4981179d.png)
+
+
+
 ### Removing Anacond3 ###
 ```
 conda install anaconda-clean
