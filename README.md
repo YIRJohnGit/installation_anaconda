@@ -7,12 +7,18 @@
 cd ~/Downloads
 #curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
 curl https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh --output anaconda.sh
+ls -l
 ```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/195766377-b6a1d82f-3fe4-467c-9697-f24dd0b669a7.png)
+
 ### Execute the anaconda.sh script file ###
 ```
 #sha256sum anaconda.sh
 bash anaconda.sh
 ```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/195766582-72e9bc45-fde3-4d3c-9451-52ca99d9769b.png)
 
 source ~/.bashrc
 
