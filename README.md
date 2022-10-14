@@ -70,6 +70,11 @@ jupyter notebook
 _Result_
 ![image](https://user-images.githubusercontent.com/111234771/195773081-6d309d2c-e311-4f43-9424-460c4981179d.png)
 
+```
+anaconda-navigator
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/195862893-6f5ec470-5070-49ae-9348-51164d48df9f.png)
 
 
 ### Removing Anacond3 ###
