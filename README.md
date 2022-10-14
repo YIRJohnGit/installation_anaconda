@@ -14,14 +14,23 @@ _Result_
 
 ### Execute the anaconda.sh script file ###
 ```
-#sha256sum anaconda.sh
+sha256sum anaconda.sh
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/195768229-16116cba-cdba-4c17-bbd4-b7fe9b0f64f8.png)
+
+```
 bash anaconda.sh
 ```
 _Result_
 ![image](https://user-images.githubusercontent.com/111234771/195766582-72e9bc45-fde3-4d3c-9451-52ca99d9769b.png)
-
+![image](https://user-images.githubusercontent.com/111234771/195769695-a397a9cc-002b-4e8f-ab3e-8cc9c11d4fbe.png)
+![image](https://user-images.githubusercontent.com/111234771/195769945-89b3bf51-eda3-44d9-933f-cfb041050e71.png)
+```
 source ~/.bashrc
+```
 
+```
 	conda list
 	conda create --name my_env python=3
 	conda activate my_env
@@ -37,15 +46,17 @@ source ~/.bashrc
 	conda update conda
 	conda update anaconda
 
-	conda install anaconda-clean
-	anaconda-clean
-	rm -rf ~/anaconda3
+```
+### Removing Anacond3 ###
+conda install anaconda-clean
+anaconda-clean
+rm -rf ~/anaconda3
 
-	nano ~/.bashrc
+nano ~/.bashrc
 
 
 
-	# >>> conda initialize >>>
+# >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/sammy/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
