@@ -1,10 +1,13 @@
 # installation_anaconda
 
 
-https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 
+### Download from Repository ###
+```
 cd ~/Downloads
-curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
+#curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
+curl https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh --output anaconda.sh
+```
 
 sha256sum anaconda.sh
 
