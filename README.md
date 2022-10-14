@@ -27,34 +27,47 @@ _Result_
 ![image](https://user-images.githubusercontent.com/111234771/195769695-a397a9cc-002b-4e8f-ab3e-8cc9c11d4fbe.png)
 ![image](https://user-images.githubusercontent.com/111234771/195769945-89b3bf51-eda3-44d9-933f-cfb041050e71.png)
 ```
+
+```
+eval "$(/home/ubuntu/anaconda3/bin/conda shell.bash hook)"
+```
+```
 source ~/.bashrc
 ```
+```
+conda list
+conda --version
+```
+
+### Creating Virtual Environment ###
+```
+conda create --name my_env python=3
+conda activate my_env
+python --version
+```
+
+### Close Virtual Environment ###
+```
+conda deactivate
+```
 
 ```
-	conda list
-	conda create --name my_env python=3
-	conda activate my_env
-	python --version
-	conda deactivate
+conda create -n my_env35 python=3.5
+conda info --envs
+conda install --name my_env35 numpy
+conda create --name my_env python=3 numpy
+conda remove --name my_env35 --all
 
-	conda create -n my_env35 python=3.5
-	conda info --envs
-	conda install --name my_env35 numpy
-	conda create --name my_env python=3 numpy
-	conda remove --name my_env35 --all
-
-	conda update conda
-	conda update anaconda
-
+conda update conda
+conda update anaconda
 ```
+
 ### Removing Anacond3 ###
+```
 conda install anaconda-clean
 anaconda-clean
 rm -rf ~/anaconda3
-
 nano ~/.bashrc
-
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -70,4 +83,4 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
+```
