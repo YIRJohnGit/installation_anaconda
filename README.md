@@ -28,8 +28,10 @@ _Result_
 ![image](https://user-images.githubusercontent.com/111234771/195769695-a397a9cc-002b-4e8f-ab3e-8cc9c11d4fbe.png)
 ![image](https://user-images.githubusercontent.com/111234771/195769945-89b3bf51-eda3-44d9-933f-cfb041050e71.png)
 
+- Syntax `eval "$(/home/<current user name>/anaconda3/bin/conda shell.bash hook)"`
+Example:
 ```
-eval "$(/home/ubuntu/anaconda3/bin/conda shell.bash hook)"
+eval "$(/home/$USER/anaconda3/bin/conda shell.bash hook)"
 ```
 ```
 source ~/.bashrc
@@ -65,6 +67,7 @@ conda update anaconda
 ___Reboot the Machine (Optional)___
 ### Verify By Starting Jupyter Notebook ###
 ```
+cd ~/anaconda3
 jupyter notebook
 ```
 _Result_
@@ -72,6 +75,7 @@ _Result_
 
 ### Start Anaconda Navigator and install Tensorflow ###
 ```
+cd ~/anaconda3
 anaconda-navigator
 ```
 _Result: Setting Up for Tensorflow Environment_
