@@ -39,6 +39,8 @@ source ~/.bashrc
 ```
 conda list
 conda --version
+
+conda update -n base -c defaults conda
 ```
 
 ### Creating Virtual Environment ###
