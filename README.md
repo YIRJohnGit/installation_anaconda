@@ -90,6 +90,9 @@ _Running Sample Tensorflow_
 
 ### Removing Anacond3 ###
 ```
+cd ~/anaconda3
+eval "$(/home/$USER/anaconda3/bin/conda shell.bash hook)"
+
 conda install anaconda-clean
 anaconda-clean
 rm -rf ~/anaconda3
