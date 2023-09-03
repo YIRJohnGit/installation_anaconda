@@ -81,6 +81,7 @@ _Result_
 ### Start Anaconda Navigator and install Tensorflow ###
 ```
 cd ~/anaconda3
+eval "$(/home/$USER/anaconda3/bin/conda shell.bash hook)"
 anaconda-navigator
 ```
 _Result: Setting Up for Tensorflow Environment_
